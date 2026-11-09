@@ -1,11 +1,10 @@
 <!-- Color Pallet-->
 
-body{
-    margin:0px;
-    background-color: #FFF0DB;
+body {
+    margin: 0px;
 }
 
-header > img {
+.logo img{
     width:150px;
 }
 
@@ -31,5 +30,23 @@ nav a {
     font-family: "Fredoka", sans-serif;
     font-weight: 600;
 }
+
+nav a:hover {
+    color:#FF7043;
+
+}
+
+.home-content h1 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 45px;
+    color:#8A4B32;
+
+}
+
+.waffloat {
+    color:#FF7043
+}
+
+
 
 
