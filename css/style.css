@@ -5,8 +5,13 @@
 #FFFFFF -- > Pure White 
 */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
+    padding-top: 100px;
 }
 
 .logo img{
@@ -21,6 +26,11 @@ header {
     padding: 10px 60px;
     border-radius: 0px 0px 50px 50px;
     box-shadow: 5px 5px 15px #713F2B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav {
