@@ -34,7 +34,7 @@ header {
 
 nav {
     display: flex;
-    gap:80px;
+    gap:50px;
     align-items: center;
 }
 
@@ -50,9 +50,14 @@ nav a {
 }
 
 .order {
-    background-color: #FF4A37;
+    background: linear-gradient(
+        135deg,
+        #FF7043 0%,
+        #FF4A37 50%,
+        #E8322B 100%
+    );
     display: flex;
-    padding: 5px 20px;
+    padding: 10px 20px;
     border-radius: 30px;
     color:white;
     gap:5px;
@@ -60,31 +65,60 @@ nav a {
 }
 
 .hero {
-    background-image: url("../images/homebg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    background-position: center;
-    padding: 150px 50px;
+    background-color: #FFFDD0;
+
+    background-image:
+        /* Vertical stripes */
+        repeating-linear-gradient(
+            90deg,
+            transparent 0px,
+            transparent 45px,
+            rgba(113, 63, 43, 0.045) 45px,
+            rgba(113, 63, 43, 0.045) 53px,
+            transparent 53px,
+            transparent 65px,
+            rgba(255, 74, 55, 0.035) 65px,
+            rgba(255, 74, 55, 0.035) 85px,
+            transparent 85px,
+            transparent 120px
+        ),
+
+        /* Horizontal stripes */
+        repeating-linear-gradient(
+            0deg,
+            transparent 0px,
+            transparent 45px,
+            rgba(113, 63, 43, 0.045) 45px,
+            rgba(113, 63, 43, 0.045) 53px,
+            transparent 53px,
+            transparent 65px,
+            rgba(255, 74, 55, 0.035) 65px,
+            rgba(255, 74, 55, 0.035) 85px,
+            transparent 85px,
+            transparent 120px
+        );
 }
 
-.home-content {
-    background-color: #FFFDD0;
-    width: 50%;
-    padding: 30px;
-    border-radius: 40px;
-    border: 3px solid #FF4A37;
-    box-shadow: 5px 5px #FF4A37;
+.home {
+    display: flex;
+    gap: 10px;
+}
+
+.bg{
+    width: 45%;
+    height: 100vh;
+}
+
+.home-content{
+    padding: 80px 50px;
 }
 
 
 .home-content h1 {
     font-family: "Fredoka", sans-serif;
-    font-size: 70px;
+    font-size: 80px;
     color:#713F2B;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 30px;
 }
 
 .home-content p {
@@ -98,12 +132,12 @@ nav a {
 .call-to-actn {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
 
 }
 .menu-btn{
     border: 3px solid #713F2B;
-    padding: 5px 30px;
+    padding: 10px 30px;
     border-radius: 30px;
     color:#713F2B
 }
@@ -119,9 +153,16 @@ nav a {
 }
 
 .waffloat {
-    color:#FF4A37
+    background:linear-gradient(
+        90deg,
+        #FF7043, 
+        #FF4A37,
+        #F44336
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent
 }
-
 
 
 
