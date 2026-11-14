@@ -60,27 +60,52 @@ nav a {
 }
 
 .hero {
-    background-image: url("homebg.png");
+    background-image: url("../images/homebg.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
     background-position: center;
-    padding: 100px 50px;
+    padding: 150px 50px;
 }
 
 .home-content {
     background-color: #FFFDD0;
     width: 50%;
-    
-
+    padding: 30px;
+    border-radius: 40px;
+    border: 3px solid #FF4A37;
+    box-shadow: 5px 5px #FF4A37;
 }
 
 
 .home-content h1 {
     font-family: "Fredoka", sans-serif;
-    font-size: 45px;
+    font-size: 70px;
     color:#713F2B;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+}
 
+.home-content p {
+    font-family: "Poppins", sans-serif;
+    color:#713F2B;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.call-to-actn {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+.menu-btn{
+    border: 3px solid #713F2B;
+    padding: 5px 30px;
+    border-radius: 30px;
+    color:#713F2B
 }
 
 .call-to-actn a {
@@ -91,7 +116,6 @@ nav a {
 
 .call-to-actn .order {
     width:max-content;
-
 }
 
 .waffloat {
