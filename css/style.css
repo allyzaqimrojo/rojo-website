@@ -1,3 +1,10 @@
+/*Color Pallet 
+#FFFDD0 --> Cream/Light Ivory
+#713F2B --> Dark Toasted Brown
+#FF4A37 --> Coral Red
+#FFFFFF -- > Pure White 
+*/
+
 body {
     margin: 0px;
 }
@@ -7,7 +14,7 @@ body {
 }
 
 header {
-    background-color:#FFF0DB;
+    background-color:#FFFDD0;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -23,26 +30,26 @@ nav {
 }
 
 nav a {
-    color: #8A4B32;
+    color: #713F2B;
     text-decoration: none;
     font-family: "Fredoka", sans-serif;
     font-weight: 600;
 }
 
 nav a:hover {
-    color:#FF7043;
+    color:#FF4A37;
 
 }
 
 .home-content h1 {
     font-family: "Fredoka", sans-serif;
     font-size: 45px;
-    color:#8A4B32;
+    color:#713F2B;
 
 }
 
 .waffloat {
-    color:#FF7043
+    color:#FF4A37
 }
 
 
