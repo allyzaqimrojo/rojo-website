@@ -197,6 +197,15 @@ nav a {
     font-family: "Fredoka", sans-serif;
     font-size: 50px;
     text-align: center;
+    background:linear-gradient(
+        90deg,
+        #f88664, 
+        #FF4A37,
+        #F44336
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent
 }
 .aboutus h3{
     font-family: "Fredoka", sans-serif;
@@ -233,4 +242,8 @@ nav a {
     font-family: "Fredoka", sans-serif;
     font-weight: 600;
     gap: 10px;
+    float:right;
+    margin-top: -60px;
+    margin-right: 60px;;
+    
 }
