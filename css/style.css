@@ -25,8 +25,8 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
     gap:50px;
+    align-items: center;
 }
 
 nav a {
@@ -36,15 +36,36 @@ nav a {
     font-weight: 600;
 }
 
-nav a:hover {
-    color:#FF4A37;
-
+.order img {
+    width:30px;
 }
+
+.order {
+    background-color: #FF4A37;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color:white;
+    gap:5px;
+    align-items: center;
+}
+
 
 .home-content h1 {
     font-family: "Fredoka", sans-serif;
     font-size: 45px;
     color:#713F2B;
+
+}
+
+.call-to-actn a {
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+}
+
+.call-to-actn .order {
+    width:max-content;
 
 }
 
