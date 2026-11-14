@@ -6,7 +6,7 @@
 */
 
 section {
-    scroll-margin-top: 130px;
+    scroll-margin-top: 100px;
 }
 
 * {
@@ -171,11 +171,9 @@ nav a {
     font-family: "Fredoka", sans-serif;
     font-weight: 500;
     padding:0px 20px;
+    font-size: 18px;
+    
 }
-
-
-
-
 
 .waffloat {
     background:linear-gradient(
@@ -189,5 +187,50 @@ nav a {
     color:transparent
 }
 
+.aboutus {
+    background-color: #FFFDD0;
+    padding: 50px;
+}
 
+.aboutus h2{
+    margin:0px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.aboutus h3{
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+}
 
+.aboutus p {
+    font-family: "Poppins", sans-serif;
+    color:#713F2B;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.aboutus-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 5px;
+    gap: 50px;
+}
+
+.aboutus-icons img{
+    width: 30px;
+}
+
+.aboutus-content > img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+}
+
+.aboutus-text .order{
+    width: max-content;
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    gap: 10px;
+}
