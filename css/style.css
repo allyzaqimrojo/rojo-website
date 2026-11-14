@@ -65,6 +65,14 @@ nav a {
     background-repeat: no-repeat;
     min-height: 100vh;
     background-position: center;
+    padding: 100px 50px;
+}
+
+.home-content {
+    background-color: #FFFDD0;
+    width: 50%;
+    
+
 }
 
 
