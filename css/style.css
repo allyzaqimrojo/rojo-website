@@ -5,6 +5,10 @@
 #FFFFFF -- > Pure White 
 */
 
+section {
+    scroll-margin-top: 130px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -101,11 +105,9 @@ nav a {
 
 .home {
     display: flex;
-    gap: 10px;
 }
 
 .bg{
-    width: 45%;
     height: 100vh;
 }
 
@@ -151,6 +153,29 @@ nav a {
 .call-to-actn .order {
     width:max-content;
 }
+
+.filler {
+    background:linear-gradient(
+        90deg,
+        #FF7043, 
+        #FF4A37,
+        #F44336
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filler p{
+    color:white;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    padding:0px 20px;
+}
+
+
+
+
 
 .waffloat {
     background:linear-gradient(
