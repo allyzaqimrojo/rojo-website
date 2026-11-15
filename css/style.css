@@ -446,3 +446,125 @@ nav a {
     display: flex;
     align-items: center;
 }
+
+.promotions {
+    background-color: #FF4A37;
+    padding:  40px 0px 30px;
+    
+}
+
+.promotions h2 {
+    margin:0px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: 0px 70px;
+    text-align: center;
+}
+
+.promotions > p {
+    text-align: center;
+}
+
+.promotions p {
+    font-family: "Poppins", sans-serif;
+    color:#ffffff;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.promotions img {
+    width: 300px;
+    height: 300px;
+}
+
+.promotions > p {
+    margin: 10px 70px;
+}
+
+.promo {
+    background:linear-gradient(
+        90deg,
+        #f88664, 
+        #FF4A37
+        /* #F44336 */
+    );
+    padding: 10px 70px;
+    margin: 20px 0px;
+    height: max-content;
+}
+
+.promotions h3 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 2px;
+}
+
+.promo p {
+    font-family: "Poppins", sans-serif;
+    color:#ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.promo-header {
+    display: flex;
+    gap: 50px;
+}
+
+.promo .order img {
+    width: 20px;
+    height: auto;
+}
+
+.promo .order {
+    text-decoration: none;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    gap: 10px;
+    width: max-content;
+    margin-top: 20px;
+}
+
+.contact {
+    background-color: #FFFDD0;
+    background-image:
+        /* Vertical stripes */
+        repeating-linear-gradient(
+            90deg,
+            transparent 0px,
+            transparent 45px,
+            rgba(113, 63, 43, 0.045) 45px,
+            rgba(113, 63, 43, 0.045) 53px,
+            transparent 53px,
+            transparent 65px,
+            rgba(255, 74, 55, 0.035) 65px,
+            rgba(255, 74, 55, 0.035) 85px,
+            transparent 85px,
+            transparent 120px
+        ),
+
+        /* Horizontal stripes */
+        repeating-linear-gradient(
+            0deg,
+            transparent 0px,
+            transparent 45px,
+            rgba(113, 63, 43, 0.045) 45px,
+            rgba(113, 63, 43, 0.045) 53px,
+            transparent 53px,
+            transparent 65px,
+            rgba(255, 74, 55, 0.035) 65px,
+            rgba(255, 74, 55, 0.035) 85px,
+            transparent 85px,
+            transparent 120px
+        );
+}
+
+.contact h2 {
+    margin: 0px;
+}
