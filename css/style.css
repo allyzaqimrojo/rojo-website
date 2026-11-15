@@ -210,6 +210,7 @@ nav a {
 .aboutus h3{
     font-family: "Fredoka", sans-serif;
     font-size: 20px;
+    margin-bottom: 0;
 }
 
 .aboutus p {
@@ -217,6 +218,7 @@ nav a {
     color:#713F2B;
     font-weight: 500;
     font-size: 18px;
+    text-align: justify;
 }
 
 .aboutus-content{
@@ -242,8 +244,103 @@ nav a {
     font-family: "Fredoka", sans-serif;
     font-weight: 600;
     gap: 10px;
-    float:right;
-    margin-top: -60px;
-    margin-right: 60px;;
     
 }
+
+.hours {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 15px;
+}
+
+.gallery {
+    background-color: #FFFDD0;
+
+    background-image:
+        /* Vertical stripes */
+        repeating-linear-gradient(
+            90deg,
+            transparent 0px,
+            transparent 45px,
+            rgba(113, 63, 43, 0.045) 45px,
+            rgba(113, 63, 43, 0.045) 53px,
+            transparent 53px,
+            transparent 65px,
+            rgba(255, 74, 55, 0.035) 65px,
+            rgba(255, 74, 55, 0.035) 85px,
+            transparent 85px,
+            transparent 120px
+        ),
+
+        /* Horizontal stripes */
+        repeating-linear-gradient(
+            0deg,
+            transparent 0px,
+            transparent 45px,
+            rgba(113, 63, 43, 0.045) 45px,
+            rgba(113, 63, 43, 0.045) 53px,
+            transparent 53px,
+            transparent 65px,
+            rgba(255, 74, 55, 0.035) 65px,
+            rgba(255, 74, 55, 0.035) 85px,
+            transparent 85px,
+            transparent 120px
+        );
+    padding: 50px;
+}
+
+.gallery h2 {
+    margin:0px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background:linear-gradient(
+        90deg,
+        #f88664, 
+        #FF4A37,
+        #F44336
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+.gallery p {
+    font-family: "Poppins", sans-serif;
+    color:#713F2B;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pics img {
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.pics img:nth-child(1) {
+    width: auto;
+    height: 450px;
+
+}
+
+.pics img:nth-child(2) {
+    width: auto;
+    height: 300px;
+
+}
+
+.pics img:nth-child(3) {
+    width: auto;
+    height: 600px;
+
+}
+
