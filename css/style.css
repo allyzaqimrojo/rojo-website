@@ -634,16 +634,25 @@ nav a {
     gap: 70px;
 }
 
-.footer-container{
+
+footer {
     background-color: #713F2B;
+    padding: 30px 70px 15px;
+}
+
+.footer-container{
     display: flex;
     justify-content: space-between;
-    gap: 80px;
-    padding: 20px 70px;
+    /* gap: 400px; */
+}
+
+.flogo {
+    width: 35%;
 }
 
 .flogo img {
-    width:250px;
+    width:300px;
+    margin-bottom: 10px;
 }
 
 .flogo p {
@@ -652,8 +661,72 @@ nav a {
     font-weight: 500;
     font-size: 15px; 
     text-align: justify;
+    max-width: 500px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+.links h3, .infos h3 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+
+.links a {
+    font-family: "Poppins", sans-serif;
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.infos .contact-details {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.infos .contact-details img {
+    width: 25px;
+}
+
+.infos .contact-details p {
+    font-family: "Poppins", sans-serif;
+    color:#ffffff;
+    margin: 0;
+    font-size: 14px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
 }
 
 .socials img {
     width: 30px;
 }
+
+.socials h3 {
+    width: 100%;
+}
+
+footer > p {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    color:white;
+    margin-top: 50px;
+}   
