@@ -49,6 +49,14 @@ nav a {
     font-weight: 600;
 }
 
+nav a:hover{
+    color:#FF4A37;
+}
+
+.order:hover{
+    color:white
+}
+
 .order img {
     width:25px;
 }
