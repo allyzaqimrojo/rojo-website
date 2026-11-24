@@ -745,7 +745,7 @@ footer > p {
 
 /* ABOUT US */
 
-.about-head {
+.page-head {
     background-image: url("../images/headerpic1.png");
     background-size: cover;
     background-position: center;
@@ -754,7 +754,7 @@ footer > p {
 
 }
 
-.about-headtext h2 {
+.page-headtext h2 {
     margin: 0px;
     margin-top: 30px;
     font-family: "Fredoka", sans-serif;
@@ -770,7 +770,7 @@ footer > p {
     color:transparent
 }
 
-.about-headtext p {
+.page-headtext p {
     font-family: "Poppins", sans-serif;
     color:#713F2B;
     font-weight: 500;
@@ -778,12 +778,12 @@ footer > p {
     font-size: 20px;
 }
 
-.about-headtext {
+.page-headtext {
     text-align: center;
     padding-top: 100px;
 }
 
-.about-body {
+.page-body {
     background-color: #FFFDD0;
     background-image:
         /* Vertical stripes */
@@ -833,13 +833,16 @@ footer > p {
     color:transparent
 }
 
-.about-bodycontain {
+.page-bodycontain {
     background-color: #FDF7DD;
     padding: 100px 50px;
     margin: 0px 100px;
     border-radius: 0px 0px 50px 50px;
     box-shadow: 5px 5px 15px #713F2B;
     min-height: 1000px;
+    width: auto;
+    max-width: 100%;
+    min-width: 0;
 }
 
 .about-bodyinfo {
@@ -849,12 +852,12 @@ footer > p {
     align-items: center;
 
 }
-.about-bodycontain img {
+.page-bodycontain img {
     width: 30%;
     height: auto;
 }
 
-.about-bodycontain p {
+.page-bodycontain p {
     font-family: "Poppins", sans-serif;
     color:#713F2B;
     font-weight: 500;
@@ -949,17 +952,17 @@ footer > p {
     
 }
 
-.about-faq {
+.about-faq, .form {
     background-color:#FFFDD0;
     margin-top:  100px;
     border-radius: 40px;
-    border: solid 3px #713F2B;
+    border: solid 3px #FF4A37;
     padding-bottom: 50px;
     
 }
 
-.faq-header {   
-    background-color:#713F2B;
+.faq-header, .form-header {   
+    background-color:#FF4A37;
     padding: 30px;
     border-radius: 30px 30px 0px 0px;
 }
@@ -974,7 +977,7 @@ footer > p {
 
 .ques {
     padding: 20px 30px;
-    background-color:#713F2B;
+    background-color:#f88664;
     margin: 30px 50px;
     border-radius: 20px;
 }
@@ -982,7 +985,7 @@ footer > p {
 .ques h3 {
     font-family: "Fredoka", sans-serif;
     font-size: 20px;
-    color:#FFFDD0;
+    color:#ffffff;
     letter-spacing: 1.05px;
     margin: 0;
 }
@@ -996,10 +999,86 @@ footer > p {
     margin-bottom: 0;
 }
 
+.contact-box img {
+    width: 50px;
+    height: auto;
+}
+
+.contact-box {
+    border:solid 3px #FF4A37;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 0;
+    
+}
+.contact-infos .contact-box:nth-child(1), .contact-infos .contact-box:nth-child(5)  {
+    background:linear-gradient(
+            90deg,
+            #f88664, 
+            #FF4A37,
+            #F44336
+        );
+    border: none;
+    color: white;
+}
 
 
+.contact-box h3 {
+    font-family: "Fredoka", sans-serif;
+    color: #713F2B;
+    font-size: 20px;
+    
+}
+
+.contact-box p {
+    color:#713F2B;
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.contact-infos .contact-box:nth-child(1) h3,
+.contact-infos .contact-box:nth-child(1) p,
+.contact-infos .contact-box:nth-child(5) h3,
+.contact-infos .contact-box:nth-child(5) p {
+    color: white;
+}
 
 
+.contact-infos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    min-width: 0;
+}
+
+.page-bodycontain .loc {
+    grid-row: span 2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-width: 0;
+    border-radius: 30px;
+
+}
+
+.contact-content {
+    width: 100%;
+    min-width: 0;
+}
+
+.form-header h3 {
+    margin: 0px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 30px;
+    color: white;
+
+}
 
 
 @media screen and (max-width: 768px) {
