@@ -977,15 +977,16 @@ footer > p {
 
 .ques {
     padding: 20px 30px;
-    background-color:#f88664;
+    background-color:white;
     margin: 30px 50px;
     border-radius: 20px;
+    border: solid 2px #F44336;
 }
 
 .ques h3 {
     font-family: "Fredoka", sans-serif;
     font-size: 20px;
-    color:#ffffff;
+    color:#F44336;
     letter-spacing: 1.05px;
     margin: 0;
 }
@@ -993,7 +994,7 @@ footer > p {
 .ques p {
     font-family: "Poppins", sans-serif;
     padding-left: 30px;
-    color: white;
+    color:#713F2B;
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 0;
@@ -1064,6 +1065,7 @@ footer > p {
     object-fit: cover;
     min-width: 0;
     border-radius: 30px;
+    border:solid 3px #FF4A37;
 
 }
 
@@ -1079,6 +1081,12 @@ footer > p {
     color: white;
 
 }
+
+.form-header p {
+    color: white;
+    margin-bottom: 0;
+}
+
 .form-content form {
     display: flex;
     flex-direction: column;
