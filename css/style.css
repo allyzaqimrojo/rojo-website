@@ -1450,6 +1450,199 @@ footer > p {
 
 }
 
+/* MENU */
+
+.menu-product {
+    background-color: white;
+    border-radius: 50px;
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-producthead {
+    background-color: #AA58C0;
+    height: 150px;
+    border-radius: 50px 50px 0px 0px;
+    margin: -30px -30px 30px -30px;
+}
+
+.menu-productcard > img {
+    position: absolute;
+    height: 300px;
+    width: auto;
+    top: -175px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu-productcard {
+    width:50%;
+    border-radius: 50px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 200px;
+    border: solid 3px #713F2B;
+
+}
+
+
+.menu-contain {
+    margin-top: 200px;
+}
+
+.menu-productTextTop h3 {
+    font-family: "Fredoka", sans-serif;
+    color: #AA58C0;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.menu-productTextTop p {
+    font-size: 16px;
+}
+
+.menu-productTextBot {
+    display: flex;
+    font-family: "Fredoka", sans-serif;
+    color: #AA58C0;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between; 
+    border-top: dashed 2px #713F2B;
+    margin: auto -30px -30px;
+    border-radius: 0px 0px 50px 50px;
+    padding: 5px 20px;  
+}
+
+.select {
+    background-color: #AA58C0;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 20px;
+    min-height: max-content
+    
+}
+
+.select p {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.select img {
+    width: 25px;
+    height: 25px;
+}
+
+.menu-contain {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 300px;
+}
+
+.cookies .select, .cookies .menu-producthead, .cookies .menu-productcard {
+    background-color: #713F2B; 
+}
+
+.cookies .menu-productTextTop h3, .cookies .menu-productTextBot h3 {
+    color: #713F2B;
+}
+
+.marshmallow .select, .marshmallow .menu-producthead, .marshmallow .menu-productcard {
+    background-color: #61d2ff; 
+}
+
+.marshmallow .menu-productTextTop h3, .marshmallow .menu-productTextBot h3 {
+    color: #61d2ff;
+}
+
+.marshmallow.menu-productcard {
+    border: solid 3px #61d2ff;
+}
+
+.marshmallow .menu-productTextBot {
+    border-top: dashed 3px #61d2ff;
+}
+
+.lemon .select, .lemon .menu-producthead, .lemon .menu-productcard {
+    background-color: #FDC052; 
+}
+
+.lemon .menu-productTextTop h3, .lemon .menu-productTextBot h3 {
+    color: #FDC052;
+}
+
+.lemon.menu-productcard {
+    border: solid 3px #FDC052;
+}
+
+.lemon .menu-productTextBot {
+    border-top: dashed 3px #FDC052;
+}
+
+.buko .select, .buko .menu-producthead, .buko .menu-productcard {
+    background-color: #81BA82; 
+}
+
+.buko .menu-productTextTop h3, .buko .menu-productTextBot h3 {
+    color: #81BA82;
+}
+
+.buko.menu-productcard {
+    border: solid 3px #81BA82;
+}
+
+.buko .menu-productTextBot {
+    border-top: dashed 3px #81BA82;
+}
+
+.pineapple .select, .pineapple .menu-producthead, .pineapple .menu-productcard {
+    background-color: #f9aa18; 
+}
+
+.pineapple .menu-productTextTop h3, .pineapple .menu-productTextBot h3 {
+    color: #f9aa18;
+}
+
+.pineapple.menu-productcard {
+    border: solid 3px #f9aa18;
+}
+
+.pineapple .menu-productTextBot {
+    border-top: dashed 3px #f9aa18;
+}
+
+.ube.menu-productcard {
+    border: solid 3px #AA58C0;
+}
+
+.ube .menu-productTextBot {
+    border-top: dashed 3px #AA58C0;
+}
+
+
+.checkout {
+    background-color:#FFFDD0;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    z-index: 900;
+    box-shadow: 5px 5px 15px #713F2B;
+    border-radius: 0 0 30px 30px;
+    margin: 0px -50px -100px;
+    width: auto;
+}
 
 
 
