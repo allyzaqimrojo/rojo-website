@@ -999,6 +999,23 @@ footer > p {
     margin-bottom: 0;
 }
 
+/* CONTACT US */
+
+.contact-content > h3 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 30px;
+    background:linear-gradient(
+        90deg,
+        #f88664, 
+        #FF4A37,
+        #F44336
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent
+}
+
+
 .contact-box img {
     width: 50px;
     height: auto;
@@ -1013,6 +1030,7 @@ footer > p {
     align-items: center;
     width: 100%;
     min-width: 0;
+    box-shadow: 5px 5px 15px #713F2B;
     
 }
 .contact-infos .contact-box:nth-child(1), .contact-infos .contact-box:nth-child(5)  {
@@ -1065,6 +1083,7 @@ footer > p {
     min-width: 0;
     border-radius: 30px;
     border:solid 3px #FF4A37;
+    box-shadow: 5px 5px 15px #713F2B;
 
 }
 
@@ -1142,8 +1161,6 @@ footer > p {
     border:solid 3px #F44336;
     box-sizing: border-box;
     overflow: hidden;
-    width: 100%;
-    min-width: 0;
     box-shadow: 5px 5px 15px #713F2B;
     transition: all 0.3s ease;
     
@@ -1308,7 +1325,7 @@ footer > p {
     text-align: justify;
 }
 
-
+/* GALLERY */
 
 
 
