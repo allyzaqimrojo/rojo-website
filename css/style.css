@@ -1633,7 +1633,7 @@ footer > p {
 
 .checkout {
     background-color:#FFFDD0;
-    height: 80px;
+    height: max-content;
     width: 100%;
     position: sticky;
     bottom: 0;
@@ -1644,6 +1644,43 @@ footer > p {
     width: auto;
 }
 
+.checkout h3 {
+    font-family: "Fredoka", sans-serif;
+    color: #713F2B;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.checkout p {
+    font-family: "Poppins", sans-serif;
+    color: #713F2B;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.checkout-count, .checkout-total {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-summary {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+.checkout-toggle {
+    background-color: #713F2B;
+    color: white;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    padding: 20px 20px;
+}
 
 
 
