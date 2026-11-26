@@ -387,7 +387,7 @@ nav a:hover{
 }
 
 .menu-header {
-    margin-top: 30px;;
+    margin-top: 30px;
 }
 
 .menu-card {
@@ -458,6 +458,7 @@ nav a:hover{
     display: flex;
     align-items: center;
 }
+
 
 .promotions {
     background-color: #FF4A37;
@@ -951,7 +952,7 @@ footer > p {
     
 }
 
-.about-faq, .form {
+.about-faq, .form, .gallery-box {
     background-color:#FFFDD0;
     margin-top:  100px;
     border-radius: 40px;
@@ -1326,6 +1327,132 @@ footer > p {
 }
 
 /* GALLERY */
+
+.gallery-main {
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.gallery-main img {
+    width: 400px;
+    height: auto;   
+}
+
+.gallery-pics {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+    padding-right: 50px;
+}
+
+.gallery-pics img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery-box {
+    background-color: #FFFDD0 !important;
+    margin-top: 0;
+}
+
+.gallery-top {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flav-card h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.flav-card {
+    background: linear-gradient(
+        90deg,
+        #FF7043 0%,
+        #FF4A37 50%,
+        #E8322B 100%
+    );
+    box-sizing: border-box;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.flav-card img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px -10px -10px;
+    border: solid 3px #F44336;
+}
+
+.flav-card h3 {
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.gallery-flav {
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+    flex: 1;
+    min-width: 0;
+}
+
+.gallery-slide {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.gallery-slide button{
+    background-color:#F44336;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+
+}
+
+.gallery-box {
+    background-color: white;
+    margin-bottom: 50px;    
+}
+
+.gallery-head {
+    background-color: #F44336;
+}
+
+.gallery-head h3{
+    font-family: "Fredoka", sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.gallery-head {
+    background-color:#FF4A37;
+    padding: 30px;
+    border-radius: 30px 30px 0px 0px;
+
+}
+
+
+
+
 
 
 
